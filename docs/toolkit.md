@@ -261,41 +261,47 @@ Gave a structure which I adapted for this file.
 Reflection:
 Made documentation clean and readable.
 
+---
+
 # 7. Common Issues & Fixes
 
-Problem: go: command not found
+### Problem: go: command not found
 
-Fix: Add Go’s bin folder to PATH.
+### Fix: Add Go’s bin folder to PATH.
 
-mac/Linux: 
+Mac/Linux: 
 
-export PATH=$PATH:/usr/local/go/bin
+- export PATH=$PATH:/usr/local/go/bin
 
 Windows: 
 
-Edit Environment Variables → Path.
+- Edit Environment Variables → Path.
 
-Problem: Port 8080 already in use
+---
 
-Fix:
+### Problem: Port 8080 already in use
 
-mac/linux
+### Fix:
+
+Mac/linux
 
 ```bash
 lsof -i :8080
 kill -9 <PID>
 ```
 
-windows
+Windows
 
 ```powershell
 netstat -ano | findstr :8080
 taskkill /PID <PID> /F
 ```
 
-Problem: module errors
+---
 
-Fix:
+### Problem: module errors
+
+### Fix:
 
 ```bash
 go mod tidy
