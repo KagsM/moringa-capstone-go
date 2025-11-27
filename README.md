@@ -114,6 +114,6 @@ go run main.go
 
 ## Author
 
-Malcolm Kagolobya
-Moringa School — AI Capstone Project
-November 2025
+Malcolm Kagolobya,
+Moringa School — AI Capstone Project,
+November 2025.
