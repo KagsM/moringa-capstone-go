@@ -112,6 +112,14 @@ You should be able to clone this repository and run both examples successfully u
 go run main.go
 ```
 
+## References
+
+- https://go.dev/doc/
+
+- https://gobyexample.com/
+
+- https://ai.moringaschool.com/
+
 ## Author
 
 Malcolm Kagolobya,
