@@ -306,3 +306,15 @@ taskkill /PID <PID> /F
 ```bash
 go mod tidy
 ```
+
+---
+
+# 8. References
+
+- https://go.dev/doc/
+
+- https://gobyexample.com/
+
+- https://stackoverflow.com/
+
+- https://ai.moringaschool.com/
